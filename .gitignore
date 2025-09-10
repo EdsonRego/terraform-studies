@@ -1,0 +1,32 @@
+# Arquivos de estado
+*.tfstate
+*.tfstate.*
+
+# Logs de crash
+crash.log
+crash.*.log
+
+# Overrides locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Configurações locais do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Variáveis locais (credenciais, senhas, tokens, etc.)
+*.tfvars
+*.tfvars.json
+
+# Arquivos de backup gerados por edição
+*.backup
+*.bak
+*.tmp
+
+# Arquivos do sistema/editor
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
